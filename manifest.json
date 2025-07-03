@@ -1,0 +1,15 @@
+{
+  "name": "Gibberish Translator",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["contextMenus", "scripting", "activeTab", "storage"],
+  "action": {
+    "default_popup": "main.html",
+    "default_icon": "icon.png",
+    "default_title": "Translate text"
+  },
+  "background": {
+    "service_worker": "scripts/script.js"
+  }
+}
