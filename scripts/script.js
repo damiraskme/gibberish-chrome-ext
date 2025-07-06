@@ -65,7 +65,7 @@ function convertSelectionToRussian() {
       borderRadius: "8px",
       fontSize: "14px",
       zIndex: "9999",
-      boxShadow: "0 2px 8px rgba(0,0,0,0)",
+      boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
       transition: "opacity 0.4s ease",
       opacity: "1"
     });
